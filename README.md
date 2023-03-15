@@ -20,24 +20,24 @@ Use imwrite(filename, image) to write the image.
 End the program and close the output image windows.
 ## Program:
 ### Developed By: 
-Keerthika N
+Lathika Sunder
 ### Register Number: 
-212221230049
+212221230054
 
 ### i) Read and display the image
 ```
 import cv2
-A=cv2.imread("photo.jpg",1)
-cv2.imshow("212221230049",A)
+A=cv2.imread("flower.jpg",1)
+cv2.imshow("212221230054",A)
 cv2.waitKey(0)
 ```
 
 ### ii)Write the image
 ```
 import cv2
-A=cv2.imread("photo.jpg",1)
-cv2.imwrite("photo.jpg",A)
-cv2.imshow("212221230049",A)
+A=cv2.imread("flower.jpg",1)
+cv2.imwrite("flower.jpg",A)
+cv2.imshow("flower",A)
 cv2.waitKey(0)
 ```
 
@@ -45,7 +45,7 @@ cv2.waitKey(0)
 ```
 import random
 import cv2
-A=cv2.imread("photo.jpg",1)
+A=cv2.imread("flower.jpg",1)
 for i in range(100):
     for j in range(A.shape[1]):
         A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
@@ -57,7 +57,7 @@ cv2.waitKey(0)
 ```
 import random
 import cv2
-A=cv2.imread("photo.jpg",1)
+A=cv2.imread("flower.jpg",1)
 for i in range(100):
     for j in range(A.shape[1]):
         A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
@@ -68,7 +68,7 @@ cv2.waitKey(0)
 ### v)Cut and paste portion of image
 ```
 import cv2
-A=cv2.imread("photo.jpg",1)
+A=cv2.imread("flowwer.jpg",1)
 tag=A[140:240,165:180]
 A[25:125,50:65]=tag
 cv2.imshow("212221230054",A)

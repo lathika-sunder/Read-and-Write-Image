@@ -77,14 +77,14 @@ cv2.waitKey(0)
 ## Output:
 
 ## i) To Read,display the image
-![output](./1.png)
+![output][(./1.png)](https://github.com/KeerthikaNagarajan/Read-and-Write-Image/raw/main/1.png)
 
 ## ii) To write the image
-![output](./2.png)
+[![output](./2.png)](https://github.com/KeerthikaNagarajan/Read-and-Write-Image/raw/main/2.png)
 
 
 ## iii) Find the shape of the Image
-![output](./3.png)
+[![output](./3.png)](https://github.com/KeerthikaNagarajan/Read-and-Write-Image/raw/main/3.png)
 
 
 ## Result:

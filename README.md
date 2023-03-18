@@ -77,15 +77,15 @@ cv2.waitKey(0)
 ## Output:
 
 ## i) To Read,display the image
-![output][(./1.png)](https://github.com/KeerthikaNagarajan/Read-and-Write-Image/raw/main/1.png)
+![l1](https://user-images.githubusercontent.com/95066409/226088426-950d347f-e8dc-496a-abf7-f979221d8607.png)
 
 ## ii) To write the image
-[![output](./2.png)](https://github.com/KeerthikaNagarajan/Read-and-Write-Image/raw/main/2.png)
+![l2](https://user-images.githubusercontent.com/95066409/226088435-02cbe5af-cb1f-4e18-a6a6-6a0aebdc25ae.png)
 
 
 ## iii) Find the shape of the Image
-[![output](./3.png)](https://github.com/KeerthikaNagarajan/Read-and-Write-Image/raw/main/3.png)
 
+![l3](https://user-images.githubusercontent.com/95066409/226088444-ed30e578-1215-4ca2-9830-158fa888458c.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
